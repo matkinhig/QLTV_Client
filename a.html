@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        body {
+            padding: 50px;
+        }
+
+        /*CSS to House */
+        .house {
+            width: 0px;
+            height: 0px;
+            border-left: 60px solid transparent;
+            border-right: 60px solid transparent;
+            border-bottom: 50px solid #AAAACC;
+        }
+
+        .house:after {
+            position: absolute;
+            content: '';
+            width: 100px;
+            height: 60px;
+            background: #AAC;
+            top: 100px;
+            left: 60px;
+        }
+
+        .house:before {
+            position: absolute;
+            content: '';
+            width: 10px;
+            height: 30px;
+            background: #AAC;
+            top: 70px;
+            left: 145px;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="house">
+        </div>
+        <div class="">
+        </div>
+    </div>
+</body>
+
+</html>
